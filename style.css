@@ -1,0 +1,123 @@
+
+  body {
+    background-image: url('https://www.rataalada.com/opo/01.jpg');
+    background-size: cover; /* Ensure the image covers the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    color: #D0D0D0; /* Existing text color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    
+}
+  body{font-family: helvetica,Arial,sans-serif;
+}  
+    body > header{
+      background-color: white;
+      color: rgb(249, 249, 252);
+      font-size: 1.25vw;
+
+    }
+main>footer {
+  background-color: white;
+}
+body>footer{
+  background-color: white;
+}
+
+body>header>nav>ul{
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.navbutton {
+  color:white;
+  text-decoration: none;
+}
+
+body>main>article{
+  width: 70%;
+  margin: auto;
+}
+
+form{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+img{
+  border-radius: 10%;
+}
+
+#main_header{
+  display: flex;
+  background-color:black;
+  align-items: center;
+}
+#Nav_Bar{
+  display: flex;
+  padding: 0px;
+  
+}
+#Nav_Bar>li{
+  padding: 8px;
+  margin: 16px;
+}
+#final_footer{
+  display: flex;
+  background-color:black;
+  color: white;
+}
+#footer_ul{
+  display: flex;
+  list-style: none;
+}
+#footer_ul>div>li{
+  margin-left: 20px;
+  
+}
+#footer_ul>div>li>a{
+  text-decoration: none;
+  color: white;
+}
+
+#text{
+color: rgb(209, 206, 206);
+}
+main-nav {
+  position: relative;
+  display: flex;
+  align-items: center; /* Center items vertically */
+  height: 60px; /* Fixed height for the nav bar */
+  padding: 0 20px; /* Horizontal padding */
+  background-color: #333; /* Background color for nav bar */
+  box-sizing: border-box; /* Include padding in height calculation */
+}
+
+/* Style for the Music Player to Fit within the Nav Bar */
+#music-player1 {
+  position: absolute; /* Absolute positioning within the nav */
+  right: 20px; /* Align to the right with some margin */
+  height: 100%; /* Fill the height of the nav bar */
+  display: flex;
+  align-items: center; /* Center vertically within the container */
+}
+
+#music-player1 iframe {
+  width: 225px; /* Adjust width as needed */
+  height: 14%; /* Match the height of the nav bar */
+  border: none; /* Remove border */
+}
+
+#right-image{
+  width: 418px;
+  height: 235px;
+  justify-content: space-between;
+}
+#image-container{
+  display: flex;
+  justify-content: space-between;
+  
+}
